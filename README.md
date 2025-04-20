@@ -4,7 +4,16 @@ https://hst2007joly.weebly.com/
 
 Les Données sont pour la réalisation de projections avec Flourish Studio
 
-Le code assume que tout les fichiers sont dans le même folder, donc les folders doivent être retirés pour que le Python marche; les folders sont pour organiser les fichiers après-coup.
+
+Sources/Documentation:
+- Principales
+    - Les regionfiles proviennent des bailliages de https://doi.org/10.7910/DVN/T8UXHK. Ceux-ci ont étés modifiés par la suite manuellement.
+    - Les informations des députés proviennent de https://www2.assemblee-nationale.fr/sycomore/recherche. Cette source prend ses informations du Dictionnaire des parlementaires français (1789-1889) d'Adolphe Robert, publié en 1889-1891 https://gallica.bnf.fr/ark:/12148/bpt6k837081. 
+
+- Supplémentaires
+    - La liste wikipedia des députés de 1789, https://fr.wikipedia.org/wiki/Liste_des_d%C3%A9put%C3%A9s_aux_%C3%89tats_g%C3%A9n%C3%A9raux_de_1789, citant les Archives parlementaires https://gallica.bnf.fr/ark:/12148/bpt6k49516q, fut très utile quand est venu le temps de modifier les bailliages avec QGIS et de standardiser les données entre les députés et les regionfiles.
+
+
 
 Explication du code/des fichiers:  
 - Linkgetter : Scraper la liste des députés à scraper
@@ -26,3 +35,5 @@ Explication du code/des fichiers:
     - new1789.csv : Output
 - casspeciaux.txt : Recense des anomalies dans les données lors du travail
 - fini100m3.geojson : Regionfiles; vient de https://doi.org/10.7910/DVN/T8UXHK et traité/combiné/simplifié avec QGIS
+
+Le code assume que tout les fichiers sont dans le même folder, donc les folders doivent être retirés pour que le Python marche; les folders sont pour organiser les fichiers après-coup.
