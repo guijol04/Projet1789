@@ -36,4 +36,4 @@ Explication du code/des fichiers:
 - casspeciaux.txt : Recense des anomalies dans les données lors du travail
 - fini100m3.geojson : Regionfiles; vient de https://doi.org/10.7910/DVN/T8UXHK et traité/combiné/simplifié avec QGIS
 
-Le code assume que tout les fichiers sont dans le même folder, donc les folders doivent être retirés pour que le Python marche; les folders sont pour organiser les fichiers après-coup.
+Le code assume que tout les fichiers sont dans le même dossier, donc les dossierss doivent être retirés pour que le code Python fonctionne; les dossiers sont pour organiser et catégoriser les étapes après-coup.
