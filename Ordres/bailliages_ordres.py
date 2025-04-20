@@ -1,0 +1,169 @@
+import pandas as pd
+
+donnees = pd.DataFrame()
+
+
+
+bailliages__file = open("nomstitled.txt", "r", encoding="utf-8")
+bailliages_liste = []
+for line in bailliages__file:
+    bailliages_liste.append(line.strip())
+
+
+deputes_pd = pd.read_csv("1789tweak.csv")
+location_deputes_liste = deputes_pd["location0"].to_list()
+
+
+
+
+# for i, n in enumerate(location_deputes_liste):
+#     new_string = n
+#     new_string = new_string.replace(" (Type : Bailliage)", "")
+#     new_string = new_string.replace(" (Type : Sénéchaussée)", "")
+#     new_string = new_string.replace(" (Type : Sénéchaussées)", "")
+#     new_string = new_string.replace(" (Type : Principauté)", "")
+#     new_string = new_string.replace(" (Type : Province)", "")
+#     new_string = new_string.replace(" (Type : Vicomté)", "")
+#     new_string = new_string.replace(" (Type : Marquisat)", "")
+#     new_string = new_string.replace(" - Soissons", "")
+#     new_string = new_string.replace(" - Tours", "")
+#     new_string = new_string.replace(" - Auch", "")
+#     new_string = new_string.replace(", Gaure, Léonac et Marestains (Type : Pays et Jugeries)", "")
+#     new_string = new_string.replace(" - Trois Evêchés", "")
+#     new_string = new_string.replace(" - Moulins", "")
+#     new_string = new_string.replace(" - Bretagne", "")
+#     new_string = new_string.replace(" - Angers", "")
+#     new_string = new_string.replace("Paris-Hors-les-Murs (Type : Ville)", "Paris (hors les murs)")
+#     new_string = new_string.replace("Paris (Type : Prévôté et vicomté)", "Paris (hors les murs)")
+#     new_string = new_string.replace("Paris-ville (Type : Ville)", "Paris (ville et faubourgs)")
+#     new_string = new_string.replace("Paris ville (Type : Ville)", "Paris (ville et faubourgs)")
+#     new_string = new_string.replace("Paris - Ville (Type : Ville)", "Paris (ville et faubourgs)")
+#     new_string = new_string.replace("Paris-Ville (Type : Ville)", "Paris (ville et faubourgs)")
+#     new_string = new_string.replace("Paris (Type : Ville)", "Paris (ville et faubourgs)")
+#     new_string = new_string.replace("Paris (Type : Député)", "Paris (ville et faubourgs)")
+
+#     new_string = new_string.replace("Comminges et Nébouzan", "Comminges")
+#     new_string = new_string.replace("Angoulème", "Angoulême")
+#     new_string = new_string.replace("Forcalquier, Sisteron et Digne", "Forcalquier")
+#     new_string = new_string.replace("Anjou - Angers - Tours", "Anjou")
+#     new_string = new_string.replace("Amont - Vesoul - Franche-Comté", "Amont")
+#     new_string = new_string.replace("Aix-en-Provence", "Aix")
+#     new_string = new_string.replace("Le Quesnoy - Hainaut", "Le Quesnoy")
+#     new_string = new_string.replace("Vermandois", "Laon")
+#     new_string = new_string.replace("Souveraineté de Béarn", "Béarn")
+#     new_string = new_string.replace("Amont ", "Amont")
+#     new_string = new_string.replace("Boulonnais", "Boulogne")
+#     new_string = new_string.replace(" - Pays des Basques - Labour", "")
+#     new_string = new_string.replace("Cambrésis", "Cambrai")
+#     new_string = new_string.replace("Beaujolais", "Villefranche-de-Beaujolais")
+#     new_string = new_string.replace("Pamiers ", "Pamiers")
+#     new_string = new_string.replace(" - Abbeville - Amien", "")
+#     new_string = new_string.replace(" - Riom", "")
+#     new_string = new_string.replace(" - Lons-le-Saunier", "")
+#     new_string = new_string.replace(" - Lectoure - Isle-Jourdain", "")
+#     new_string = new_string.replace(" - Amiens", "")
+#     new_string = new_string.replace(" - Laon", "")
+#     new_string = new_string.replace(" (Type : Isle)", "")
+#     new_string = new_string.replace("Nîmes et Beaucaire", "Nîmes")
+#     new_string = new_string.replace(" - Bourbonnais", "")
+#     new_string = new_string.replace(" - Trois-Evêchés", "")
+#     new_string = new_string.replace("Bourbonnais", "Moulins")
+#     new_string = new_string.replace(" - Alençon", "")
+#     new_string = new_string.replace("Castelnaudary", "Lauraguais")
+#     new_string = new_string.replace("Valenciennes (Type : Ville)", "Valenciennes")
+#     new_string = new_string.replace("Boulogne-sur-Mer", "Boulogne")
+#     new_string = new_string.replace("Mende-en-Gévaudan", "Gévaudan")
+#     new_string = new_string.replace("Villeneuve-de-Berg", "Bas-Vivarais")
+#     new_string = new_string.replace("Quatre Vallées (Type : Pays)", "Quatre-Vallées")
+#     new_string = new_string.replace("Saint-Quentin Amiens", "Saint-Quentin")
+#     new_string = new_string.replace("Alsace (Type : Les dix villes ci-devant impériales)", "Villes Impériales")
+#     new_string = new_string.replace("Sélestat (Type : Les dix villes ci-devant impériales)", "Villes Impériales")
+#     new_string = new_string.replace("- Vesoul", "")
+#     new_string = new_string.replace("Chalon-sur-Saone", "Chalon-sur-Saône")
+#     new_string = new_string.replace("Chaumont-en-Auvergne", "Clermont-Ferrand")
+#     new_string = new_string.replace("Maine", "Le Mans")
+
+#     new_string = new_string.replace("Ploermel", "Ploërmel")
+#     new_string = new_string.replace("Ponthieus", "Ponthieu")
+#     new_string = new_string.replace("Strasbourg (Type : Ville)", "Strasbourg")
+#     new_string = new_string.replace("Perche", "Bellême")
+#     new_string = new_string.replace("Péronne - Roye", "Péronne")
+#     new_string = new_string.replace("Mauléon - Pays de Soule (Type : Pays)", "Soule")
+#     new_string = new_string.replace("Bugey-en-Valromey", "Belley")
+#     new_string = new_string.replace("Bourges", "Berry")
+#     new_string = new_string.replace("Haute-Marche - Guéret", "Guéret")
+#     new_string = new_string.replace("Forcaltier", "Forcalquier, Sisteron et Digne")
+#     new_string = new_string.replace("Boulogne ", "Boulogne")
+#     new_string = new_string.replace("Douai et Orchies", "Douai")
+#     new_string = new_string.replace("Lannion - Morlaix", "Morlaix")
+#     new_string = new_string.replace(" Moulins", "")
+#     new_string = new_string.replace("Annonay", "Haut-Vivarais")
+#     new_string = new_string.replace("Saint-Jean-d'Angely ", "Saint-Jean-d'Angely")
+#     new_string = new_string.replace("Montaigu (Type : Marches Communes)", "Marches Communes")
+#     new_string = new_string.replace("Castelmoron d'Albret", "Castelmoron")
+#     new_string = new_string.replace("Haguenau et Wissembourg", "Haguenau")
+#     new_string = new_string.replace("Chateauneuf-en-Thymerais", "Châteauneuf-en-Thymerais")
+#     new_string = new_string.replace("Puy-en-Velay", "Le Puy-en-Velay")
+#     new_string = new_string.replace("Amiens et Ham", "Amiens")
+#     new_string = new_string.replace("Châtillon-sur-Seine", "La Montagne")
+#     new_string = new_string.replace("Saint-Pierre-de-Moutier", "Saint-Pierre-le-Moutier")
+
+#     new_string = new_string.replace("Arles (Ville)", "Arles (Ville et Territoire)")
+#     if new_string == "Arles":
+#         new_string = new_string.replace("Arles", "Arles (Sénéchaussée)")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+#     new_string = new_string.replace("", "")
+
+#     location_deputes_liste[i] = new_string
+#     deputes_pd.at[i,"location0"] = new_string
+
+# deputes_pd.to_csv("new1789.csv", index=False)
+
+
+bailliages_manquants = []
+liste_deputes_pris = []
+count = 0
+for id_bail, bailliage in enumerate(bailliages_liste):
+    donnees.loc[id_bail, "Nom"] = bailliage
+    donnees.loc[id_bail, "Total"] = 0
+    donnees.loc[id_bail, "Tiers-Etat"] = 0
+    donnees.loc[id_bail, "Clergé"] = 0
+    donnees.loc[id_bail, "Noblesse"] = 0
+    for id_dep, depute in enumerate(location_deputes_liste):
+        if bailliage == depute:
+            print((bailliage, depute, id_dep, deputes_pd.at[id_dep,"groupe0"]))
+            donnees.loc[id_bail, "Total"] += 1
+            if deputes_pd.at[id_dep,"groupe0"] == "Tiers-Etat":
+                donnees.loc[id_bail, "Tiers-Etat"] += 1
+            elif deputes_pd.at[id_dep,"groupe0"] == "Clergé":
+                donnees.loc[id_bail, "Clergé"] += 1
+            elif deputes_pd.at[id_dep,"groupe0"] == "Noblesse":
+                donnees.loc[id_bail, "Noblesse"] += 1
+            liste_deputes_pris.append(depute)
+            
+    if donnees.loc[id_bail, "Total"] == 0:
+        bailliages_manquants.append(bailliage)
+
+
+
+liste_deputes = []
+for id_dep, depute in enumerate(location_deputes_liste):
+    liste_deputes.append(depute)
+
+deputes_manquants = list(set(liste_deputes) - set(liste_deputes_pris))
+
+donnees = donnees.astype({"Total":"int","Tiers-Etat":"int","Clergé":"int","Noblesse":"int"})
+donnees.to_csv("Nbparetat.csv")

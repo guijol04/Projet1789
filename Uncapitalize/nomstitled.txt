@@ -1,0 +1,181 @@
+Sézanne
+Navarre
+Clermont-Ferrand
+Mâcon
+Arches et Charleville
+Bar-sur-Seine
+Belley
+Bailleul
+Rivière-Verdun
+Rustaing
+Libourne
+Bourg-en-Bresse
+Metz (Ville)
+Saint-Jean-d'Angely
+Comminges
+Villefranche-de-Beaujolais
+Gien
+Ustaritz
+Cambrai
+Brest
+Lyon
+Chaumont-en-Bassigny
+Loudun
+Ponthieu
+Hennebont
+Villes Impériales
+Tartas
+Haguenau
+Châlons-sur-Marne
+Nîmes
+Montreuil-sur-Mer
+Gévaudan
+Carcassonne
+Trévoux
+Couserans
+Béarn
+Beauvais
+Lauraguais
+L'Isle-Jourdain
+Chartres
+Strasbourg
+Castelmoron
+Béziers
+Chalon-sur-Saône
+Meaux
+Colmar et Sélestat
+Soule
+Marches Communes
+Toulouse
+Castres
+Agen
+Bordeaux
+Quatre-Vallées
+Limoux
+Pamiers
+Boulogne
+Nevers
+Châteauneuf-en-Thymerais
+Lille
+Arles (Sénéchaussée)
+Armagnac
+Auxerre
+Bigorre
+Bazas
+Etampes
+Reims
+Condom
+Villers-Cotterêts
+Arles (Ville et Territoire)
+Ploërmel
+Dourdan
+Villefranche-de-Rouergue
+Château-Thierry
+Nemours
+Saumur
+La Montagne
+Auch
+Mohon
+Ham
+Montpellier
+Paris (ville et faubourgs)
+Aix
+Dinan
+Crépy-en-Valois
+Besançon
+Moulins
+Clermont-en-Beauvaisis
+Bayonne
+Douai
+Mont-de-Marsan
+Bas-Vivarais
+Orange
+Guéret
+Soissons
+Valenciennes
+Rennes
+Le Puy-en-Velay
+Langres
+Châtellerault
+Saint-Quentin
+Gex
+Charolles
+Marseille
+Haut-Vivarais
+Belfort et Huningue
+Nancy
+Mirecourt
+Bar-le-Duc
+Sarreguemines
+Troyes
+Sedan
+Toul
+Metz
+Verdun
+Laon
+Vitry-le-François
+Paris (hors les murs)
+Chaumont-en-Vexin
+Mantes et Meulan
+Amiens
+Montfort-l'Amaury
+Artois
+Melun
+Calais et Ardres
+Péronne
+Sens et Villeneuve-le-Roi
+Senlis
+Provins
+Avesnes
+Le Quesnoy
+Bellême
+Evreux
+Vendôme
+Alençon
+Caux
+Montargis
+Caen
+Orléans
+Blois
+Rouen
+Coutances
+Semur-en-Auxois
+Berry
+Amont
+Aval
+Autun
+Dijon
+Saint-Pierre-le-Moutier
+Dôle
+Anjou
+Le Mans
+Touraine
+Vannes
+Riom
+Quimper
+Saint-Flour
+Nantes
+Lesneven
+Poitiers
+Carhaix, Châteaulin et Quimperlé
+Forez - Montbrison
+Fougères
+Saint-Brieuc
+Morlaix
+La Rochelle
+Tulle
+Angoulême
+Basse-Marche
+Saintes
+Limoges
+Quercy - Cahors - Montauban
+Albret - Nérac
+Rodez
+Dax, Saint-Sever, Cap et Bayonne
+Périgord
+Dauphiné
+Perpignan
+Draguignan, Grasse et Castellane
+Toulon
+Forcalquier
+Corse

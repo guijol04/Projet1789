@@ -1,0 +1,182 @@
+,Nom,Total,Tiers-Etat,Clergé,Noblesse
+0,Sézanne,4,2,1,1
+1,Navarre,4,2,1,1
+2,Clermont-Ferrand,5,2,2,1
+3,Mâcon,4,2,1,1
+4,Arches et Charleville,1,1,0,0
+5,Bar-sur-Seine,5,3,1,1
+6,Belley,4,2,1,1
+7,Bailleul,9,4,3,2
+8,Rivière-Verdun,4,2,1,1
+9,Rustaing,0,0,0,0
+10,Libourne,4,2,1,1
+11,Bourg-en-Bresse,9,4,2,3
+12,Metz (Ville),1,1,0,0
+13,Saint-Jean-d'Angely,4,2,1,1
+14,Comminges,8,4,2,2
+15,Villefranche-de-Beaujolais,4,2,1,1
+16,Gien,4,2,1,1
+17,Ustaritz,5,2,1,2
+18,Cambrai,4,2,1,1
+19,Brest,2,2,0,0
+20,Lyon,16,8,4,4
+21,Chaumont-en-Bassigny,9,6,2,1
+22,Loudun,4,2,1,1
+23,Ponthieu,4,2,1,1
+24,Hennebont,3,3,0,0
+25,Villes Impériales,2,2,0,0
+26,Tartas,3,2,1,0
+27,Haguenau,6,1,2,3
+28,Châlons-sur-Marne,5,2,1,2
+29,Nîmes,16,8,4,4
+30,Montreuil-sur-Mer,4,2,1,1
+31,Gévaudan,6,2,2,2
+32,Carcassonne,9,4,2,3
+33,Trévoux,4,2,1,1
+34,Couserans,3,1,1,1
+35,Béarn,6,4,2,0
+36,Beauvais,4,2,1,1
+37,Lauraguais,4,2,1,1
+38,L'Isle-Jourdain,0,0,0,0
+39,Chartres,5,3,1,1
+40,Strasbourg,2,2,0,0
+41,Castelmoron,4,2,1,1
+42,Béziers,9,4,2,3
+43,Chalon-sur-Saône,10,6,2,2
+44,Meaux,8,5,2,1
+45,Colmar et Sélestat,8,4,2,2
+46,Soule,4,2,1,1
+47,Marches Communes,4,2,1,1
+48,Toulouse,17,9,4,4
+49,Castres,5,3,1,1
+50,Agen,13,7,3,3
+51,Bordeaux,16,8,4,4
+52,Quatre-Vallées,1,1,0,0
+53,Limoux,4,2,1,1
+54,Pamiers,4,2,1,1
+55,Boulogne,5,2,1,2
+56,Nevers,8,3,2,3
+57,Châteauneuf-en-Thymerais,4,2,1,1
+58,Lille,11,5,3,3
+59,Arles (Sénéchaussée),4,2,1,1
+60,Armagnac,4,2,1,1
+61,Auxerre,4,2,1,1
+62,Bigorre,4,2,1,1
+63,Bazas,4,2,1,1
+64,Etampes,4,2,1,1
+65,Reims,8,4,2,2
+66,Condom,4,2,1,1
+67,Villers-Cotterêts,5,2,1,2
+68,Arles (Ville et Territoire),4,2,1,1
+69,Ploërmel,5,5,0,0
+70,Dourdan,5,3,1,1
+71,Villefranche-de-Rouergue,8,4,2,2
+72,Château-Thierry,5,2,1,2
+73,Nemours,5,3,1,1
+74,Saumur,4,2,1,1
+75,La Montagne,4,2,1,1
+76,Auch,4,2,1,1
+77,Mohon,0,0,0,0
+78,Ham,0,0,0,0
+79,Montpellier,4,2,1,1
+80,Paris (ville et faubourgs),45,20,13,12
+81,Aix,8,4,2,2
+82,Dinan,2,2,0,0
+83,Crépy-en-Valois,4,2,1,1
+84,Besançon,6,3,2,1
+85,Moulins,14,8,3,3
+86,Clermont-en-Beauvaisis,4,2,1,1
+87,Bayonne,0,0,0,0
+88,Douai,5,3,1,1
+89,Mont-de-Marsan,5,3,1,1
+90,Bas-Vivarais,9,4,3,2
+91,Orange,5,2,2,1
+92,Guéret,8,4,2,2
+93,Soissons,5,2,2,1
+94,Valenciennes,2,2,0,0
+95,Rennes,13,8,5,0
+96,Le Puy-en-Velay,4,2,1,1
+97,Langres,6,4,1,1
+98,Châtellerault,5,2,1,2
+99,Saint-Quentin,4,2,1,1
+100,Gex,4,2,1,1
+101,Charolles,3,1,1,1
+102,Marseille,10,6,2,2
+103,Haut-Vivarais,5,3,1,1
+104,Belfort et Huningue,7,3,2,2
+105,Nancy,8,4,2,2
+106,Mirecourt,8,4,2,2
+107,Bar-le-Duc,14,7,4,3
+108,Sarreguemines,11,7,2,2
+109,Troyes,8,4,2,2
+110,Sedan,5,3,1,1
+111,Toul,6,2,2,2
+112,Metz,9,4,3,2
+113,Verdun,7,5,1,1
+114,Laon,14,6,3,5
+115,Vitry-le-François,8,4,2,2
+116,Paris (hors les murs),18,8,6,4
+117,Chaumont-en-Vexin,4,2,1,1
+118,Mantes et Meulan,4,2,1,1
+119,Amiens,8,4,2,2
+120,Montfort-l'Amaury,8,4,2,2
+121,Artois,17,8,5,4
+122,Melun,4,2,1,1
+123,Calais et Ardres,4,2,1,1
+124,Péronne,11,6,2,3
+125,Sens et Villeneuve-le-Roi,5,2,1,2
+126,Senlis,4,2,1,1
+127,Provins,5,3,1,1
+128,Avesnes,4,2,1,1
+129,Le Quesnoy,7,2,2,3
+130,Bellême,5,3,1,1
+131,Evreux,8,4,2,2
+132,Vendôme,4,2,1,1
+133,Alençon,8,4,2,2
+134,Caux,11,5,3,3
+135,Montargis,4,2,1,1
+136,Caen,13,7,3,3
+137,Orléans,13,6,4,3
+138,Blois,8,4,2,2
+139,Rouen,16,8,4,4
+140,Coutances,16,8,4,4
+141,Semur-en-Auxois,4,2,1,1
+142,Berry,16,8,4,4
+143,Amont,13,6,3,4
+144,Aval,10,4,3,3
+145,Autun,4,2,1,1
+146,Dijon,8,4,2,2
+147,Saint-Pierre-le-Moutier,5,2,2,1
+148,Dôle,4,2,1,1
+149,Anjou,20,10,5,5
+150,Le Mans,24,12,5,7
+151,Touraine,17,8,5,4
+152,Vannes,6,2,4,0
+153,Riom,24,10,7,7
+154,Quimper,7,4,3,0
+155,Saint-Flour,12,6,3,3
+156,Nantes,15,9,6,0
+157,Lesneven,2,2,0,0
+158,Poitiers,31,16,7,8
+159,"Carhaix, Châteaulin et Quimperlé",2,2,0,0
+160,Forez - Montbrison,8,3,2,3
+161,Fougères,2,2,0,0
+162,Saint-Brieuc,5,3,2,0
+163,Morlaix,4,4,0,0
+164,La Rochelle,4,2,1,1
+165,Tulle,9,4,3,2
+166,Angoulême,8,4,2,2
+167,Basse-Marche,4,2,1,1
+168,Saintes,9,4,2,3
+169,Limoges,10,5,2,3
+170,Quercy - Cahors - Montauban,12,6,3,3
+171,Albret - Nérac,4,2,1,1
+172,Rodez,4,2,1,1
+173,"Dax, Saint-Sever, Cap et Bayonne",4,1,1,2
+174,Périgord,8,4,2,2
+175,Dauphiné,27,13,4,10
+176,Perpignan,8,4,2,2
+177,"Draguignan, Grasse et Castellane",8,4,2,2
+178,Toulon,9,4,2,3
+179,Forcalquier,8,5,2,1
+180,Corse,4,2,1,1
