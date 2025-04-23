@@ -30,3 +30,10 @@ frontieres bailliages méconnues: carte ligne droites
 ---> paroisses
 
 Metz ville
+
+Clergé Breton:
+Nantes 6
+Rennes 5
+Vannes 4
+Saint-Brieuc 2
+Qiumper 3
